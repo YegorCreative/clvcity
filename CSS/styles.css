@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    /*font-family: 'Ms Madi', cursive;
+    font-family: 'Righteous', cursive;*/
+    font-size: 16px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+#mainContainer{
+    width: 320px;
+    max-width: 1440px;
+    width: 100%;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
